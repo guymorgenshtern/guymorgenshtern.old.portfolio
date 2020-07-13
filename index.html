@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Guy Morgenshtern</title>
+
+	<!-- Linking bootstrap and css !-->
+	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/fixed.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body data-spy = "scroll" data-target = "#navbarResponsive">
+
+<!-- Start Home Section -->
+<div id="home">
+
+<!--Navigation-->
+<nav class="navbar navbar-expand-md navbar-hide-on-scroll navbar-dark bg-dark fixed-top" id ="navbar" style="display: none;">
+	<a class="navbar-brand" href="#"><img src="img/Guy Morgenshtern.png"></a> <!--navbar logo at top left -->
+	
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class ="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item">
+				<a class="nav-link" href="#home">Home</a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="#about">About</a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="#projects">Projects</a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="#resources">Resources</a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="#clients">Clients</a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="#contact">Contact</a>
+			</li>
+
+		</ul>
+	</div>
+</nav>
+
+
+
+<!--End Navigation-->
+
+<!--Start Landing Page Section-->
+<div class="landing">
+	<div class="home-wrap">
+		<div class="home-inner"> 
+		</div>
+	</div>
+</div>
+
+<div class="caption text-center">
+	<h1>I'm </h1>
+	<span id="typed"></span>
+	<script >
+		$('document').ready(function(){
+			var typed = new Typed('#typed', {
+				strings = ['dgdgdg','ddgdgd'],
+				backSpeed:40,
+				typeSpeed:40,
+			})
+		})
+	</script>
+	<div class="welcome">
+		<h3 id="ff">Welcome</h3>
+		<a class="btn btn-outline-light btn-lg" href="#about"><i class="fa fa-angle-down"></i></a>
+	</div>
+</div>
+
+<!--End Landing Page Section-->
+
+
+</div>
+
+
+<!-- End Home Section -->
+
+<!-- Start about Section (course section in tutorial) !-->
+<div id="about" class="offset">
+<div class="container">
+      <div class="row justify-content-between">
+
+        <div class="col-lg-4 ">
+          <div class="div-img-bg">
+            <div class="about-img">
+              <img src="img/header3.jpg" class="img-responsive" alt="me">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="about-descr">
+
+            <p class="p-heading" id ="ff">Hi there!</br></p>
+            <p class="separator" style="padding-bottom: 1rem">
+            	I'm a Software Engineering at Carleton University in Ottawa. I'm interested in machine learning, social good projects, front end development, robotics, and I actively participate in hackathons. When I'm not programming, I like to produce music, exercise, and be outdoors. I'm also looking for co-op placements/internships for the Summer 2021 semester!
+            </p>
+            <a class="btn btn-secondary btn-md" href="resume.com" target="_blank">Resume</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+</div>
+<!-- End about Section -->
+
+<!-- Start about Projects (features section in tutorial) !-->
+<div id="projects" class="offset">
+	<div class="jumbotron">
+		<div class="narrow">
+
+			<div class="col-12">
+				<h3 class="heading">Projects</h3>
+				<div class="heading-underline"></div>
+			</div>
+
+			<div class="row text-center">
+				<div class="col-md-4">
+					<div class="project">
+						<i class="fa fa-list-alt fa-4x" data-fa-transform="shrink-3 up-5"></i>
+						<h3>SignIn++</h3>
+						<p>A sign-in system made for the Student Success department as Richmond Hill High School that automatically generates custom reports and analytics.
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="project">
+						<i class="fa fa-play fa-4x" data-fa-transform="shrink-4 up-5"></i>
+						<h3>Rapository</h3>
+						<p>A MHacks 11 hackathon project that uses Markov Chains and predictive text to generate original song lyrics.</p>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="project">
+						<i class="fa fa-train fa-4x" data-fa-transform="shrink-3 up-5"></i>
+						<h3>Trusst</h3>
+						<p>A bridge analysis/design tool inpired by a project in a first year engineering course where the goal was to successfully design a new section of the Ottawa O-Train Line.</p>
+					</div>
+				</div>
+
+			</div><!--end row-->
+
+
+		</div><!--end narrow-->
+	</div><!--end jumbotron-->
+</div>
+
+<!-- End Projects Section -->
+
+<!-- Start resources Section -->
+<div id="resources" class="offset">
+
+<!-- End resources Section !-->
+
+<!-- Start clients Section -->
+<div id="clients" class="offset">
+
+<!-- End clients Section !-->
+
+<!-- Start contact Section -->
+<div id="contact" class="offset">
+
+<!-- End contact Section !-->
+
+<!--- Script Source Files -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+<script src="js/typed/typed.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+<!--- End of Script Source Files -->
+
+
+
+
+
+  <!-- Javascript File -->
+  <script src="js/main.js"></script>
+
+
+</body>
+</html>
+
+
+

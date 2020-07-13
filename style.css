@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #505962;
+}
+
+/* Navigation CSS*/
+ .navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: #EEEEEE !important;
+
+ }
+
+ .navbar-brand img {
+  height: 2rem;
+ }
+
+.navbar-nav li {
+  padding-right: 0.7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #000;
+  padding-top: 0.8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #5bbaff;
+}
+
+/* Landing Page CSS */
+
+.home-inner {
+  background-image: url(img/header4.jpg);
+}
+
+.welcome:hover {
+  color: #5bbaff;
+
+}
+
+.welcome h3:hover{
+  color: #FFF;
+
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+}
+
+.caption h1 {
+  font-size: 2.8rem;
+  font-weight: 70;
+  letter-spacing: .1rem;
+  padding-bottom: 0.5rem;
+}
+
+.caption h3 {
+  font-size: 1.2rem;
+
+}
+
+.btn-lg {
+  border: none;
+  border-radius: 0;
+
+}
+
+.btn-lg:hover {
+  color: #5bbaff;
+}
+
+/* About Me */
+
+#about {
+  width: 100%;
+  height: auto;
+  background: #EEEEEE;
+  padding-top: 190px;
+}
+
+#about .div-img-bg {
+  padding-bottom: 30px;
+
+}
+
+#about .div-img-bg .about-img img {
+  width: 100%;
+  box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
+  margin-top: -60px;
+  margin-left: 40px;
+  height: 400px;
+  object-fit: cover;
+}
+
+#about .about-descr .p-heading {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 28px;
+  text-align: left;
+}
+
+#about .about-descr .separator {
+  max-width: 80%;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.btn-secondary {
+  border: none;
+  border-radius: 0;
+  font-size: 1rem;
+  color: #EEEEEE;
+  background-color: #5bbaff;
+}
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
