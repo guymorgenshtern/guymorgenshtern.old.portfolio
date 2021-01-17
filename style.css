@@ -13,7 +13,7 @@ body {
   font-weight: 700;
   font-size: .9rem;
   letter-spacing: .1rem;
-  background: #EEEEEE !important;
+  background: #201F1E !important;
 
  }
 
@@ -26,7 +26,7 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #000;
+  color: #EEEEEE;
   padding-top: 0.8rem;
 }
 
@@ -123,6 +123,27 @@ body {
   color: #EEEEEE;
   background-color: #5bbaff;
 }
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+
+.contact {
+  margin: auto;
+  width: 60%;
+  border: 5px solid #FFFF00;
+  padding: 0px;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+
 
 /*============ BOOTSTRAP BREAK POINTS:
 
